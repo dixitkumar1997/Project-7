@@ -1,0 +1,645 @@
+body {
+    margin: 0px;
+}
+
+#first {
+    width: 100%;
+    height: 650px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./living\ room.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.firsttop {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.firsttop1 {
+    width: 20%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.firsttop1 h1 span {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 6px;
+    margin: 0px;
+}
+
+.firsttop1 h1 {
+    margin: 0px 0px 0px 15px;
+}
+
+.firsttop2 {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.firsttop2 h2 {
+    font-size: 15px;
+}
+
+.firsttop3 {
+    display: flex;
+    width: 15%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.firsttop3 .fa-solid {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.firsttop3 h2 {
+    font-size: 15px;
+}
+
+.firsthr {
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.firstmid {
+    width: 30%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 180px auto;
+}
+
+.firstmid h1 {
+    color: white;
+    width: 80%;
+    text-align: center;
+    font-size: 35px;
+}
+
+.firstmidbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstmidbtn button {
+    width: 150px;
+    height: 25px;
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+}
+
+.firstbottom {
+    width: 25px;
+    height: 20px;
+    margin: 230px 0px 0px 680px;
+}
+
+.firstbottom .fa-solid {
+    color: white;
+    font-size: 25px;
+}
+
+#second {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secondtop {
+    width: 300px;
+    height: 80px;
+    padding-top: 15px;
+}
+
+.secondtop h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.secondtop hr {
+    width: 40%;
+    border-color: orangered;
+}
+
+.secondmid {
+    width: 70%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.secondmid1 {
+    width: 30%;
+    height: 250px;
+    background-image: url("./livingroom.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.secondmid1 h2 {
+    width: 70%;
+    height: 40px;
+    background-color: white;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 0px;
+}
+
+.secondmidbtn {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.secondmidbtn button {
+    width: 200px;
+    height: 40px;
+    border: 2px solid orangered;
+}
+
+.secondhr {
+    width: 100%;
+    border: 1px solid grey;
+}
+
+#third {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.thirdmid {
+    width: 80%;
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.thirdmid1 {
+    width: 23%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.thirdmid1 .fa-regular {
+    font-size: 55px;
+    color: orangered;
+}
+
+.thirdmid1 h2 {
+    text-align: center;
+    font-size: 17px;
+    margin: 0px;
+}
+
+.thirdmid1 p {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.thirdmid2 .fa-solid {
+    font-size: 55px;
+    color: orangered;
+}
+
+.thirdmid3 .fa-solid {
+    font-size: 55px;
+    color: orangered;
+}
+
+.thirdmid4 .fa-solid {
+    font-size: 55px;
+    color: orangered;
+}
+
+#fourth {
+    width: 100%;
+    height: 550px;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fourthmidimg {
+    width: 70%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourthmidimg1 {
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fourthmidimg2 {
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image1 {
+    width: 100%;
+    height: 45%;
+}
+
+.image2 {
+    width: 45%;
+    height: 45%;
+}
+
+#fifth {
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(to top,orangered 58%,rgb(238, 238, 238) 42%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.fifthmid{
+    width: 70%;
+    height: 400px;
+    border: 5px solid rgb(238, 238, 238) ;
+    display: flex;
+}
+.fifthmid1{
+    width: 25%;
+    height: 100%;
+    border-right: 4px solid rgb(238, 238, 238);
+    background-image: url("./damagewall.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fifthmid2{
+    width: 75%;
+    height: 100%;
+    background-image: url("./perfectkitchen.jpg");
+    background-size: cover;
+}
+.fifthmidcircle1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 210px;
+    top: 180px;
+}
+.fifthmidcircle1 .fa-solid{
+    color: orangered;
+}
+.fifthbottom1 h1{
+  color: white;
+  text-align: center;
+  color: white;
+  margin: 0px;
+}
+.fifthbottom2{
+  width: 35%;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+.fifthbottom2a{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.fifthbottom2a .fa-solid{
+  color: black;
+  font-size: 13px;
+  margin-top: 19px;
+  color: orange;
+}
+.fifthbottom2b{
+    width: 38%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.fifthbottom2 h2{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+.fifthbottom2b .fa-regular{
+    color: black;
+    font-size: 18px;
+    margin-top: 16px;
+    color: orange;
+  }
+  .fifthbottom3 button{
+    background-color: black;
+    color: white;
+  }
+ #sixth{
+  width: 100%;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  .sixthmid{
+width: 70%;
+height: 400px;
+display: flex;
+  }
+  .sixthmid1{
+width: 65%;
+height: 100%;
+  }
+  .sixthmid2{
+ width: 30%;
+ height: 100%;
+  }
+  .sixthmid2 span{
+color: orange;
+  }
+  .sixthmid2 h2{
+    font-size: 25px;
+  }
+  .sixthmid2btn button{
+    width: 150px;
+    height: 40px;
+    border: 2px solid orange;
+    background-color: white;
+  }
+  .sixthbottom{
+width: 70%;
+height: 120px;
+display: flex;
+justify-content: space-between;
+  }
+  .sixthbottom1{
+width: 30%;
+height: 100%;
+display: flex;
+justify-content: space-between;
+  }
+  .sixthbottom1a{
+ width: 40%;
+ height: 100%;
+  }
+  .sixthbottom1a img{
+    width: 100%;
+    height: 100%;
+  }
+  .sixthbottom1b{
+width: 50%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+  }
+  .sixthbottom1b h3{
+    font-size: 17px;
+  }
+  .sixthbottom1b span{
+    color: orange;
+    font-size: 15px;
+  }
+#seventh{
+width: 100%;
+height: 700px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+}
+  .seventhmid{
+    width: 70%;
+    height: 500px;
+  }
+  .seventhmid img{
+    width: 100%;
+    height: 100%;
+  }
+  #eighth{
+    width: 100%;
+    height: 600px;
+    background-image:linear-gradient(rgba(238,238,238,0.9),rgba(238,238,238,0.9)) ,url("./paintwalls2.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+  #eighth h1{
+    margin-left: 200px;
+    padding-top: 60px;
+  }
+  .eighthmid{
+    margin: auto;
+width: 70%;
+height: 400px;
+display: flex;
+justify-content: space-between;
+  }
+
+  .eighthmid1{
+width: 45%;
+height: 100%;
+  }
+  .eighthmid2{
+width: 45%;
+height: 100%;
+  }
+  #footer{
+    width: 100%;
+    height: 380px;
+    background-color: rgb(22, 10, 8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footersection{
+    margin: auto;
+    width: 80%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .footersection1{
+width: 20%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+  }
+  .footersection1top{
+    width: 100%;
+    height: 30px;
+  }
+  .footersection1top h1 span{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+  }
+  .footersection1top h1{
+    color: white;
+  }
+  .footersection1bottom{
+color: white;
+  }
+  .footersection2{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .footersection2top h3{
+    color: white;
+    padding-top: 10px;
+  }
+  .footersection2mid{
+    width: 100%;
+    height: 40%;
+  }
+  .footersection2mid1{
+    width: 65%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footersection2mid1 .fa-solid{
+    color: orange;
+    padding-top: 3px;
+  }
+  .footersection2mid1 h6{
+    color: white;
+    font-size: 18px;
+    margin: 0px;
+  }
+  .footersection2mid2{
+    width: 95%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footersection2mid2 .fa-regular{
+    color: orange;
+    padding-top: 3px;
+  }
+  .footersection2mid2 h6{
+    color: white;
+    font-size: 18px;
+    margin: 0px;
+  }
+  .footersection2mid3{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footersection2mid3 .fa-solid{
+    color: orange;
+    padding-top: 3px;
+  }
+  .footersection2mid3 h6{
+    color: white;
+    font-size: 18px;
+    margin: 0px 0px 0px 17px;
+  }
+  .footersection2mid4{
+    width: 55%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footersection2mid4 .fa-solid{
+    color: orange;
+    padding-top: 3px;
+  }
+  .footersection2mid4 h6{
+    color: white;
+    font-size: 18px;
+    margin: 0px;
+  }
+  .footersection3{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .footersection3top{
+        width: 100%;
+        height: 30px;
+  }
+  .footersection3top h3{
+    color: white;
+    padding-top: 10px;
+  }
+  .footersection3bottom{
+width: 20%;
+height: 50%;
+  }
+  .footersection3bottom h6{
+   color: white;
+   font-size: 18px;
+    margin: 0px;
+  }
+  .footersection4{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .footersection4top{
+    width: 100%;
+    height: 30px;
+  }
+  .footersection4top h3{
+    color: white;
+    padding-top: 10px;
+  }
+  .footersection4bottom{
+    width: 100%;
+    height: 50%;
+  }
+  .footersection4bottom img{
+    width: 32%;
+    height: 48%;
+  }
